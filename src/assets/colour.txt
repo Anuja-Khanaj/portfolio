@@ -1,0 +1,10 @@
+Pale Pink	#FADADD
+Baby Blue	#A2D2FF
+Lilac	#C9A0DC
+Peachy	#FFCC99
+Mint	#98FF98
+
+Background: Pale Pink or Baby Blue
+Header and Navigation: Lilac or Peachy
+Text: Dark Gray or Black for readability
+Buttons and Accents: Mint or Lilac

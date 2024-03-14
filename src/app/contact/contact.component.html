@@ -1,0 +1,49 @@
+<div class="main-one d-flex">
+    <div class="img" >
+        <img src="../../assets/contact.jpg" alt="">
+        <div class="d-flex">
+            <i class="fa-solid fa-location-dot"></i>
+            <h6>12/231,Bavne galli Ichalkaranji Dist- Kolhapur.</h6>
+        </div>
+        <div class="d-flex">
+            <i class="fa-solid fa-phone"></i>
+            <h6>8080866761</h6>
+        </div>
+        <div class="d-flex">
+            <i class="fa-solid fa-envelope"></i>
+            <h6>anujahkhanaj2003@gmail.com</h6>
+        </div>
+        <app-footer style="background-color: antiquewhite; border-radius: 10px;"></app-footer>
+
+    </div>
+
+    <div class="main">
+
+        <div class="form-center">
+            <img style="width: 40%;" src="../../assets/—Pngtree—fashion sexy female character_4886073.png" alt="">
+
+            <form action="" class="form" [formGroup]="reactiveForms" onsubmit="event.preventDefault()">
+                <h2 style="border-bottom:solid 2px rgb(216, 26, 58); padding-bottom: 3px;">Get In Touch With Me</h2>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input class="form-control" type="text" name="name" id="" formControlName="name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input class="form-control" type="text" name="email" id="" formControlName="email">
+                    <small *ngIf="reactiveForms.get('email').invalid && reactiveForms.get('email').touched">Email is required</small>
+                </div>
+                <div class="form-group">
+                    <label for="msg"> Your Messege for me </label>
+                    <textarea class="form-control" name="msg" id="msg" cols="30" rows="10"
+                        formControlName="msg"></textarea>
+                </div>
+                <div class="sub">
+                    <button class="btn" (click)="onFormSubmit(reactiveForms.value)">Submit</button>
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+</div>

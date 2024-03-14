@@ -1,0 +1,31 @@
+.btn{
+    background-color:rgb(216, 26, 58);
+    color: white;
+}
+
+.intro{
+    opacity: 0;
+}
+
+
+.col{
+    background-color: rgba(128, 128, 128, 0.482);
+    margin: 10px 20px;
+    padding: 1rem;
+    border-radius: 3px;
+    opacity: 0;
+}
+
+.col:hover{
+    /* transform: translate(2px, px); */
+    transform: translate(-3px,-3px);
+    background-color: rgba(128, 128, 128, 0.651);
+    box-shadow: rgba(128, 128, 128, 0.854) 2px 2px ;
+}
+
+.edu-skills{
+    /* height: 100vh; */
+    background-color: black;
+    color: white;
+}
+

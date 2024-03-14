@@ -1,0 +1,77 @@
+img{
+    width: 40%;
+            opacity: 0; 
+
+  
+ 
+    box-shadow: rgb(216, 26, 58) 20px 20px;
+}
+.main{
+    background-color: black;
+    color: white;
+}
+
+.text{
+           opacity: 0; 
+
+  
+
+    text-align: end;
+}
+
+.btn{
+           opacity: 0; 
+
+  
+color: white;
+    background-color:rgb(216, 26, 58);
+    /* outline: solid 1px; */
+}
+
+.text2{
+       opacity: 0; 
+
+  
+    text-align:start;
+}
+.left{
+    width: 30%;
+}
+.skills {
+    
+  
+    padding: 10px;
+ opacity: 1;
+    background-color: rgba(128, 128, 128, 0.482);
+        
+
+    height: fit-content;
+  
+}
+
+.intern{
+   
+    height: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.482);
+}
+
+.sub-left{
+    border-radius: 10px 10px 0 10px;
+     opacity: 0; 
+
+ 
+}
+.intro{
+     position: relative;
+     top: 50%;
+     z-index: 1;
+     color: rgb(216, 26, 58);
+}
+
+@media screen and (max-width:1349px) {
+     .main{
+        display: grid;
+     }
+}

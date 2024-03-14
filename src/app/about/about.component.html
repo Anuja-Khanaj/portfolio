@@ -1,0 +1,35 @@
+<div class="main">
+    <div class="title d-flex p-5">
+        <div class="about px-2">
+         <h2 style="border-bottom:solid 2px rgb(216, 26, 58); padding-bottom: 3px;">About Me</h2>
+         <p>Extremely motivated to constantly develop my skills and grow professionally. An ambitious,
+             enthusiastic, self-learner, driven graduate aiming to help achieve company goals and take on
+             more responsibility, well developed ability to perform and work in Team environment
+             </p>
+        </div>
+     
+         <app-navbar></app-navbar>
+     </div>
+      
+     <div class="sub-main">
+         <div class="nav2 container btn-group mt-3 "  > 
+             <div  [ngClass]="{'btn':true, 'bg':skillBg }" (click)="OnSKillSelect()" >Skills</div>
+              <div [ngClass]="{'btn':true, 'bg':eduBg }" (click)="OnEduSelect() " >Education</div>
+             <div  [ngClass]="{'btn':true, 'bg':expBg }" (click)="OnExpSelect()">Experience/Certification</div>
+         </div>
+         <div class="all-compo container mt-5 "  [ngSwitch]="tab">
+             <app-skill *ngSwitchDefault ="'skill'"></app-skill>
+             <app-education  *ngSwitchCase="'education'"></app-education>
+            <app-experience *ngSwitchCase="'experience'"></app-experience>
+         </div>
+     </div>
+</div>
+
+
+
+
+
+ 
+ <router-outlet></router-outlet>
+
+

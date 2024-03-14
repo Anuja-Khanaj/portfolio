@@ -1,0 +1,30 @@
+nav{
+    background-color: rgba(128, 128, 128, 0.482);
+    opacity: 0;
+    border-radius: 10px 10px 0 10px;
+    /* opacity: 1; */
+    width: fit-content;
+    
+}
+
+.nav-link{
+    opacity: 0;
+}
+
+
+
+li{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    margin: 1px;
+    padding: 1px 5px;
+    border-radius: 3px;
+    border-bottom: solid transparent 2px;
+}
+
+li:hover{
+    border-bottom: solid rgb(216, 26, 58) 2px;
+    color: rgb(120, 119, 119);
+    transform: 0.8s;
+}

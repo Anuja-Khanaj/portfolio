@@ -1,0 +1,67 @@
+<div class="main d-flex ">
+ 
+ <div class=" " style="height: 100vh; z-index: 1;">
+  <h2 class=" intro text-center" #intro>Hello There ...</h2>
+    <div class="sub " style="display: flex; justify-content: center; align-self: center; margin-top: 3rem;">
+      
+      <div class="row">
+        <div class="col-md-6 text" #text >
+          
+          <h3>I am Anuja Khanaj</h3>
+          <button class="btn" #btn>About me 
+          </button>      </div>
+        <div class="col-md-6">
+          <img src="../../assets/profile.jpg" alt="Your Image" class="img-fluid" #img>
+        </div>
+      </div>
+    </div>
+    <div class="row my-5">
+        <div class="col-md-6 mr-4" style="display: flex; justify-content: end;">
+          <img class="img2" src="../../assets/work.jpg" alt="Your Image" class="img-fluid" #img2>
+        </div>
+        <div class="col-md-6 text2" #text2 >
+          <h2>I am Full Stack Developer</h2>
+          <p>You can see my resume and downlod</p>
+          <button class="btn" #btn2>Resume  
+          </button>      </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 text" #text3 >
+          <h2>Intresting right ?</h2>
+          <p>Here is my contact !</p>
+          <button class="btn" #btn3>Conatct Details 
+          </button>      </div>
+        <div class="col-md-6">
+          <img src="../../assets/profile.jpg" alt="Your Image" class="img-fluid" #img3>
+        </div>
+      </div>
+  </div>
+  <div class="left ">
+    <div class="sub-left my-2" #header  >
+      <app-navbar style="width: 100%;"></app-navbar>
+    </div>
+    <div class="sub-left skills mt-3" #skills >
+      <h2 style="border-bottom:solid 2px rgb(216, 26, 58);">Profile </h2>
+      Extremely motivated to constantly develop my skills and grow professionally. An ambitious,
+      enthusiastic, self-learner, driven graduate aiming to help achieve company goals and take on
+      more responsibility, well developed ability to perform and work in Team environment
+    </div>
+   <div class="sub-left intern mt-3" #intern >
+    <h4 style="border-bottom:solid 2px rgb(216, 26, 58); padding-bottom: 3px;" >You might like to see some of my projects</h4>
+     <ul>
+      
+        <li> <b>Project Management System</b> <br> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus dolorem quae, doloremque quasi 
+        </p></li>
+          
+        
+
+     </ul>
+     <button class="btn"  style="opacity: 1;"> See More </button>
+  </div>
+  <div class="sub-left d-flex justify-content-center mt-2 " style="align-items: end; " #footer >
+    <app-footer style="width: 100%;"></app-footer>
+  </div>
+  </div>
+ <router-outlet></router-outlet>
+</div>

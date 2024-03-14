@@ -1,0 +1,58 @@
+.imgs{
+    width: 21%;
+   
+}
+.title{
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+.title h1{
+    align-self: center;
+}
+.edu{
+    justify-content: space-around;
+    align-items: center;
+}
+
+ .edu-skills{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  
+}
+.main{
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+.btn{
+    outline: solid 2px rgb(216, 26, 58);
+    color: white;
+}
+
+.btn:hover{
+    color: rgba(128, 128, 128, 0.502);
+    transform: 0.8s;
+}
+
+.bg{
+    background-color:rgb(216, 26, 58);
+    color: white;
+}
+
+
+.all-compo{
+    width: fit-content;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: rgba(128, 128, 128, 0.32);
+    box-shadow: rgba(128, 128, 128, 0.514) 5px 5px;
+}

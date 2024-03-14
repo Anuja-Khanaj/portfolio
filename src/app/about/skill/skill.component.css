@@ -1,0 +1,23 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px; /* Adjust as needed */
+}
+
+.grid-item {
+    text-align: center;
+}
+
+.grid-item img {
+    max-width: 100%; /* Ensure images don't exceed their container */
+    height: auto;
+}
+
+.edu-skills{
+    justify-content: center;
+    gap: 10rem;
+}
+
+.imgs{
+    width: 27%;
+}
