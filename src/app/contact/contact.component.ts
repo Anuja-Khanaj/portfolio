@@ -2,6 +2,7 @@ import { Component, OnInit, inject } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { LogService } from '../Services/log.service';
 import { msg } from '../Model/msg';
+import { Route, Router } from '@angular/router';
 
 @Component({
   selector: 'app-contact',
@@ -9,8 +10,12 @@ import { msg } from '../Model/msg';
   styleUrls: ['./contact.component.css']
 })
 export class ContactComponent  implements OnInit{
+
   reactiveForms:FormGroup
-  logservice:LogService = inject(LogService)
+  constructor(
+    private logservice: LogService,
+    private router: Router
+  ) {}
   ngOnInit(){
     this.reactiveForms = new FormGroup({
       name : new FormControl(''),
@@ -22,5 +27,7 @@ export class ContactComponent  implements OnInit{
     console.log('clicked');
     this.logservice.Contact(msg)
     this.reactiveForms.reset('')
+    alert("Message conveyed successfully.👍")
+    this.router.navigate(['/Home'])
   }
 }

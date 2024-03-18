@@ -7,6 +7,12 @@ ul{
     /* opacity: 0; */
 }
 
+
+a{
+    text-decoration: none;
+     color:  rgba(19, 19, 19, 0.913)   ;
+}
+
 li{
     display: flex;
     align-items: center;

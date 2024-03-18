@@ -38,12 +38,12 @@
                     <textarea class="form-control" name="msg" id="msg" cols="30" rows="10"
                         formControlName="msg"></textarea>
                 </div>
-                <div class="sub">
-                    <button class="btn" (click)="onFormSubmit(reactiveForms.value)">Submit</button>
+                <div class="sub btn"  (click)="onFormSubmit(reactiveForms.value)">
+                    Submit
                 </div>
             </form>
         </div>
 
     </div>
-
+<router-outlet></router-outlet>
 </div>

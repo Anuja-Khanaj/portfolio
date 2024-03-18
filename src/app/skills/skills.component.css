@@ -14,13 +14,21 @@
     padding: 1rem;
     border-radius: 3px;
     opacity: 0;
+    overflow: hidden;
+    height: 20rem;
 }
 
+
+
 .col:hover{
-    /* transform: translate(2px, px); */
-    transform: translate(-3px,-3px);
-    background-color: rgba(128, 128, 128, 0.651);
+    
+    /* position: relative;
+    z-index: 2;
+    width: 100%;
+    left: 0; */
+    background-color: black;
     box-shadow: rgba(128, 128, 128, 0.854) 2px 2px ;
+    overflow-y: visible;
 }
 
 .edu-skills{
@@ -29,3 +37,14 @@
     color: white;
 }
 
+h2{
+    color: rgb(155, 155, 155);
+}
+
+strong{
+    border-bottom: 2px solid rgb(216, 26, 58);
+}
+
+p{
+    font-weight: 100;
+}
