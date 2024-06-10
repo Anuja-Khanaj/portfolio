@@ -2,25 +2,24 @@
     background-color:rgb(216, 26, 58);
     color: white;
 }
-
-.intro{
+ .col{
     opacity: 0;
-}
+ }
 
 
-.col{
+.colproj{
     background-color: rgba(128, 128, 128, 0.482);
     margin: 10px 20px;
     padding: 1rem;
     border-radius: 3px;
-    opacity: 0;
+    /* opacity: 0; */
     overflow: hidden;
     height: 20rem;
 }
 
 
 
-.col:hover{
+.colproj:hover{
     
     /* position: relative;
     z-index: 2;

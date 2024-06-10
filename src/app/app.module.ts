@@ -15,6 +15,8 @@ import { SkillComponent } from './about/skill/skill.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,7 +28,9 @@ import { HttpClientModule } from '@angular/common/http';
     FooterComponent,
     EducationComponent,
     ExperienceComponent,
-    SkillComponent
+    SkillComponent,
+ 
+ 
   ],
   imports: [
     BrowserModule,

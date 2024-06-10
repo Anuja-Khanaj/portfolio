@@ -1,11 +1,16 @@
 .imgs{
     width: 21%;
-   
 }
+
+.cold{
+    opacity: 0;
+}
+
 .title{
     justify-content: space-between;
     background-color: black;
     color: white;
+    
 }
 .title h1{
     align-self: center;

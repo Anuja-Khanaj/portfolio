@@ -8,7 +8,7 @@ import { gsap } from 'gsap/gsap-core';
 })
 export class SkillsComponent implements AfterViewInit {
   
-  @ViewChild('intro2') intro: ElementRef;
+  @ViewChild('col0') col0: ElementRef;
   @ViewChild('col1') col1: ElementRef;
   @ViewChild('col2') col2: ElementRef;
   @ViewChild('col3') col3: ElementRef;
@@ -25,7 +25,8 @@ export class SkillsComponent implements AfterViewInit {
     const timeline = gsap.timeline({ defaults: { duration: 1 }}); // Fix typo in 'defaults'
 
     timeline
-      .to(this.intro.nativeElement, { x: 10, opacity: 1 })  
+      // .to(this.intro.nativeElement, { x: 10, opacity: 1 })
+      .to(this.col0.nativeElement, { y:-20, opacity: 1 })  
       .to(this.col1.nativeElement, { x: 10, opacity: 1 })
       .to(this.col2.nativeElement, { x: -10, opacity: 1 })
       .to(this.col3.nativeElement, { x: 10, opacity: 1 })

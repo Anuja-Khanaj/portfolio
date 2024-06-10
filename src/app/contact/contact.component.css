@@ -1,4 +1,4 @@
-.main{
+/* .main{
     background-color: black;
     height: 100vh;
     color: white;
@@ -7,12 +7,7 @@
     align-items: center;
     width: 50%;
     margin-left: 10%;
-}
-.main-one 
-{
-  background-color: black;
-/* justify-content: space-between; */
-}
+
 
 .img{
     width: 30%;
@@ -65,4 +60,56 @@ input .ng-invalid{
 
 input .ng-touched {
     border: solid 2px red;
+} */
+
+.cold{
+    opacity: 0;
+}
+
+.main-one 
+{
+  background-color: black;
+justify-content: space-between;
+}
+
+.form-center{
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form{
+    width: 100%;
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.482);
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(128, 128, 128, 0.854) 2px 2px ;
+}
+
+.bg{
+    display: flex;
+    background-color: rgb(216, 26, 58);
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    padding: 10px;
+    border-radius: 10px;
+   
+}
+
+.bgc{
+    background-color: rgba(128, 128, 128, 0.482);
+    box-shadow: rgba(128, 128, 128, 0.854) 2px 2px ;
+}
+
+.sub{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(216, 26, 58);
+    border-radius: 3px;
 }

@@ -38,3 +38,11 @@ body {
   ::-webkit-scrollbar-thumb:hover {
     background:rgb(216, 26, 58); 
   }
+
+  .Stylebtn{
+ 
+
+
+color: white;
+background-color:rgb(216, 26, 58);
+  }

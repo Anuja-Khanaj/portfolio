@@ -1,12 +1,13 @@
 nav{
     background-color: rgba(128, 128, 128, 0.482);
     border-radius: 10px 10px 0 10px;
+    padding: 20px;
 }
 
-ul{
-    /* opacity: 0; */
+/* ul{
+    opacity: 0;
 }
-
+ */
 
 a{
     text-decoration: none;
