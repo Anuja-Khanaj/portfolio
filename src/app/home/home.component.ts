@@ -24,11 +24,11 @@ export class HomeComponent implements AfterViewInit {
     timeline
       // .to(this.intro.nativeElement, { x: 10, opacity: 1 })
       // .to(this.col0.nativeElement, { y:-20, opacity: 1 })  
-      .to(this.col1.nativeElement, { x: -10, opacity: 1 })
-      .to(this.col2.nativeElement, { x: 10, opacity: 1 })
-      .to(this.col3.nativeElement, { x: -10, opacity: 1 })
-      .to(this.col4.nativeElement, { x: 10, opacity: 1 })
-      .to(this.col5.nativeElement, { y: -10, opacity: 1 })
+      .to(this.col1.nativeElement, {  opacity: 1 })
+      .to(this.col2.nativeElement, {  opacity: 1 })
+      .to(this.col3.nativeElement, { opacity: 1 })
+      .to(this.col4.nativeElement, { opacity: 1 })
+      .to(this.col5.nativeElement, {  opacity: 1 })
       // .to(this.col6.nativeElement, { x: -10, opacity: 1 })
       // .to(this.nav.nativeElement, { opacity: 1 });
   }
