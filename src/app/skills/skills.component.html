@@ -1,4 +1,4 @@
-<div class="edu-skills ">
+<!-- <div class="edu-skills ">
     <div class="  p-4 container">
         <div class=" intro row pt-3 " #intro2>
             <div class="col" #col0>
@@ -117,4 +117,34 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
+
+<div class="edu-skills">
+    <div class="p-4 container">
+      <div class="intro row pt-3" #intro2>
+        <div class="col" #col0>
+          <h2 style="border-bottom: solid 2px rgb(216, 26, 58); padding-bottom: 3px;">Projects</h2>
+          <p>"Welcome to my project showcase! Here, you'll find an array of innovative creations including Lingofur - a cutting-edge language learning platform, a dynamic portfolio website, and a versatile resume generator. Explore these projects to see how technology and creativity come together to deliver unique and impactful solutions."</p>
+        </div>
+      </div>
+  
+      <div class="row " *ngFor="let project of projects; let i = index">
+        <div class="cold col  row colproj" style="height: fit-content;"  #projectCol>
+         <div class="col"> <h2>{{ project.title }}</h2>
+            <p><strong>Description:</strong> {{ project.description }}</p>
+            <p><strong>Technologies Used:</strong> {{ project.technologies }}</p>
+            <ol #ol>
+              <li *ngFor="let feature of project.features">{{ feature }}</li>
+            </ol>
+            <a href={{project.codeLink}} target="_blank"><button class="btn">See Code</button></a>
+        </div>
+          <div class="col colproj">
+            <img class="projImg" src={{project.img}} alt="project img">
+        </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+  

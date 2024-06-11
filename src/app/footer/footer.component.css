@@ -9,10 +9,15 @@ nav{
 }
  */
 
-a{
+
+ a{
     text-decoration: none;
-     color:  rgba(19, 19, 19, 0.913)   ;
-}
+    color: white;
+ }
+
+ a:hover{
+    color: rgb(120, 119, 119);
+ }
 
 li{
     display: flex;

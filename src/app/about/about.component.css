@@ -1,7 +1,10 @@
 .imgs{
     width: 21%;
 }
-
+p,li{
+    color: rgb(155, 155, 155);
+    font-weight: 100;
+}
 .cold{
     opacity: 0;
 }

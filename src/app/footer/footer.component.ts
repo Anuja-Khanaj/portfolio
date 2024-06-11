@@ -11,4 +11,25 @@ export class FooterComponent implements AfterViewInit {
     //  gsap.to(this.nav.nativeElement,{opacity:1, delay:2})
  }
 
+ socialLinks = [
+  {
+    name: 'Instagram',
+    url: '#'
+  },
+  {
+    name: 'Threads',
+    url: 'https://github.com/Anuja-Khanaj'
+  },
+  {
+    name: 'GitHub',
+    url: 'https://github.com/Anuja-Khanaj'
+  },
+  {
+    name: 'LinkedIn',
+    url: 'https://www.linkedin.com/in/anuja-khanaj-571998236'
+  }
+];
 }
+
+
+

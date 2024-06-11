@@ -45,8 +45,16 @@ li{
     margin: 1px;
     padding: 1px 5px;
     border-radius: 3px;
-    color: white;
+   
     border-bottom: solid transparent 2px;
+ }
+
+ a{
+    color: white;
+ }
+
+ a:hover{
+    color: rgb(120, 119, 119);
  }
 
 li:hover {
