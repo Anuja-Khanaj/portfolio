@@ -24,8 +24,8 @@ export class ContactComponent  implements OnInit,AfterViewInit{
     const timeline = gsap.timeline({ defaults: { duration: 1 }}); // Fix typo in 'defaults'
 
     timeline 
-      .to(this.col1.nativeElement, { x: -10, opacity: 1 })
-      .to(this.col2.nativeElement, { x: 10, opacity: 1 })
+      .to(this.col1.nativeElement, { x: 3, opacity: 1 })
+      .to(this.col2.nativeElement, { x: -5, opacity: 1 })
   }
   reactiveForms:FormGroup
   constructor(
