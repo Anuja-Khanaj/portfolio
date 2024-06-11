@@ -10,10 +10,10 @@
      </div>
       
      <div class="sub-main cold " #col1 >
-         <div class="nav2 container btn-group mt-3 "  > 
-             <div  [ngClass]="{'btn':true, 'bg':skillBg }" (click)="OnSKillSelect()" >Skills</div>
-              <div [ngClass]="{'btn':true, 'bg':eduBg }" (click)="OnEduSelect() " >Education</div>
-             <div  [ngClass]="{'btn':true, 'bg':expBg }" (click)="OnExpSelect()">Experience/Certification</div>
+         <div class="nav2 container row mt-3 "  > 
+             <div class="col-md-4" [ngClass]="{'btn':true, 'bg':skillBg }" (click)="OnSKillSelect()" >Skills</div>
+              <div   class="col-md-4"[ngClass]="{'btn':true, 'bg':eduBg }" (click)="OnEduSelect() " >Education</div>
+             <div  class="col-md-4"  [ngClass]="{'btn':true, 'bg':expBg }" (click)="OnExpSelect()">Experience/Certification</div>
          </div>
          <div class="all-compo container mt-5 "  [ngSwitch]="tab">
              <app-skill *ngSwitchDefault ="'skill'"></app-skill>

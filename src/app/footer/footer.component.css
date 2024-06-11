@@ -1,7 +1,6 @@
 nav{
-    background-color: rgba(128, 128, 128, 0.482);
-    border-radius: 10px 10px 0 10px;
-    padding: 20px;
+  
+    padding: 10px;
 }
 
 /* ul{
@@ -20,12 +19,14 @@ nav{
  }
 
 li{
+    background-color: rgba(128, 128, 128, 0.482);
+    border-radius: 10px 10px 0 10px;
     display: flex;
     align-items: center;
     gap: 5px;
     margin: 1px;
     padding: 3px 5px;
-    border-radius: 3px;
+    
     border-bottom: solid 2px transparent;
 }
 
